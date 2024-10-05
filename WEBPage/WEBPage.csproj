@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\bot_left_shape.1d9561ce.svg" />
+    <None Include="wwwroot\Images\bot_right_shape.67c5e775.svg" />
+    <None Include="wwwroot\Images\mid_left_shape.9b13a86d.svg" />
+    <None Include="wwwroot\Images\mid_right_shape_first.bfe4482f.svg" />
+    <None Include="wwwroot\Images\mid_right_shape_second.5a721d7c.svg" />
+    <None Include="wwwroot\Images\taskrabbit-logo.c585babc.svg" />
+    <None Include="wwwroot\Images\top_left_shape.a6553437.svg" />
+    <None Include="wwwroot\Images\top_right_shape.46afcf8f %281%29.svg" />
+    <None Include="wwwroot\Images\top_right_shape.46afcf8f.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
+  </ItemGroup>
+
+</Project>

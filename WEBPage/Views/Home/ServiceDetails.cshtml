@@ -1,0 +1,49 @@
+﻿@* @model YourAppNamespace.ViewModels.ServiceDetailsViewModel
+@{
+    ViewData["Title"] = "Service Details";
+}
+
+<h1>Service Details</h1>
+
+<!-- Service Details Section -->
+<div class="card mb-3">
+    <div class="card-body">
+        <h4 class="card-title">@Model.Service.ServiceName</h4>
+        <p class="card-text">@Model.Service.Description</p>
+        <p><strong>Category:</strong> @Model.Service.Category.CategoryName</p>
+        <p><strong>Base Price:</strong> @Model.Service.BasePrice.ToString("C")</p>
+    </div>
+</div>
+
+<!-- Technicians Providing the Service -->
+<h3>Technicians</h3>
+
+@if (Model.Technicians.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Job Title</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var technician in Model.Technicians)
+            {
+                <tr>
+                    <td>@technician.Name</td>
+                    <td>@technician.JobTitle</td>
+                    <td>@technician.Email</td>
+                    <td>@technician.PhoneNumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No technicians are currently assigned to this service.</p>
+}
+ *@

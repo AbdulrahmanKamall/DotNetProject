@@ -1,0 +1,117 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+
+main{
+    margin-top:100px;
+    margin-bottom:70px;
+}
+.main-Text {
+    font-size: 55px;
+    line-height:77px;
+    color: #0a2b14;
+    font-weight:700;
+}
+.search .input-group {
+    background-color: #ffffff;
+}
+.search button {
+    background-color: #0d7a5f;
+    padding : 10px 20px; 
+}
+    .search button:hover {
+        transition: background-color 0.3s, color 0.3s;
+        background-color: #055240;
+    }
+
+
+.search .input-group input {
+    padding: 10px 30px;
+}
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    text-align: center;
+    cursor: pointer;
+}
+
+    .service-item i {
+        font-size: 30px;
+    }
+
+.active-service {
+    color: purple;
+}
+
+.details-card {
+    border-radius: 15px;
+    background-color: #f3eaf7;
+    padding: 20px;
+}
+
+#service-details img {
+    border-radius: 15px;
+    max-width: 775px;
+    width: 100%;
+}
+#service-details .service-link {
+    border-radius: 50px; /* More circular buttons */
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 20px; /* Adjust padding for better size */
+    font-weight: 700; /* Make font bold */
+    border: solid 2px; /* Make border bold */
+    border-color: #1a1e1d;
+}
+
+    #service-details .service-link:hover {
+        background-color: #ecf7ef;
+        color: #1a1e1d; /* Bootstrap primary color */
+    }
+
+.hidden {
+    display: none; /* Hide elements initially */
+}
+
+
+.left-image,
+.right-image {
+    position: absolute; /* Position them absolutely */
+    top: 230px; /* Center vertically */
+    transform: translateY(-50%); /* Adjust position to center */
+}
+
+.left-image {
+    left: 0; /* Align to the left */
+}
+
+.right-image {
+    right: 0; /* Align to the right */
+}
+
+img {
+    width: 100px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+}

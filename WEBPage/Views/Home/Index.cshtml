@@ -1,0 +1,277 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="left-image">
+    <!-- Example image for the left side -->
+    <img src="~/Images/top_left_shape.a6553437.svg" alt="Left Image">
+</div>
+
+<div class="right-image">
+    <!-- Example image for the right side -->
+    <img src="~/Images/top_right_shape.46afcf8f.svg" style="width: 590px; alt="Right Image">
+</div>
+<main class="w-100">
+    
+    <div class="container w-100 m-auto">
+        <section class="sec-1">
+            <div class="main-Text text-center d-flex flex-column mt-5">
+                <div class="text-center">Book trusted help</div>
+                <div class="text-center">for home tasks</div>
+            </div>
+            <div class="search row justify-content-center mt-4">
+                <div class="col-md-6">
+                    <div class="input-group ">
+                        <input type="text" class="form-control form-control-lg rounded-pill shadow-lg" placeholder="Search for something..." aria-label="Search">
+                        <button class="btn btn-primary rounded-pill ms-2 shadow-lg" type="button">
+                            <i class="bi bi-search"></i> Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Services list -->
+            <div class="row service-list mt-5">
+                <div class="service-item col-auto active" data-service="assembly">
+                    <i class="bi bi-wrench"></i>
+                    <div>Assembly</div>
+                </div>
+                <div class="service-item col-auto" data-service="mounting">
+                    <i class="bi bi-wrench-adjustable-circle-fill"></i>
+                    <div>Mounting</div>
+                </div>
+                <div class="service-item col-auto" data-service="moving">
+                    <i class="bi bi-truck"></i>
+                    <div>Moving</div>
+                </div>
+                <div class="service-item col-auto" data-service="cleaning">
+                    <i class="bi bi-shield-shaded"></i>
+                    <div>Cleaning</div>
+                </div>
+                <div class="service-item col-auto" data-service="outdoor">
+                    <i class="bi bi-tree"></i>
+                    <div>Outdoor Help</div>
+                </div>
+                <div class="service-item col-auto" data-service="repairs">
+                    <i class="bi bi-hammer"></i>
+                    <div>Home Repairs</div>
+                </div>
+                <div class="service-item col-auto" data-service="painting">
+                    <i class="bi bi-paint-bucket"></i>
+                    <div>Painting</div>
+                </div>
+                <div class="service-item col-auto" data-service="trending">
+                    <i class="bi bi-lightning"></i>
+                    <div>Trending</div>
+                </div>
+            </div>
+
+            <!-- Details -->
+            <div id="service-details" class="mt-5">
+                <div id="assembly-items" class="hidden">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex flex-wrap justify-content-start gap-3">
+                                <a href="#" class="btn btn-outline-secondary service-link">General Furniture Assembly</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">IKEA Assembly</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Crib Assembly</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">PAX Assembly</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Bookshelf Assembly</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Desk Assembly</a>
+                            </div>
+                            <div class="details-card mt-3">
+                                <h4>Assembly</h4>
+                                <ul>
+                                    <li>Expert assembly for furniture, shelves, and more.</li>
+                                    <li>Now Trending: DIY furniture assembly kits and modular furniture.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 assembly-details">
+                            <img src="~/Images/Homepage_Assembly.webp" alt="Assembly service">
+                        </div>
+                    </div>
+                </div>
+                <div id="cleaning-items" class="hidden">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex flex-wrap justify-content-start gap-3">
+                                <a href="#" class="btn btn-outline-secondary service-link">General Furniture Assembly</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">IKEA Assembly</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Crib Assembly</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">PAX Assembly</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Bookshelf Assembly</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Desk Assembly</a>
+                            </div>
+                            <div class="details-card mt-3">
+                                <h4>Cleaning</h4>
+                                <ul>
+                                    <li>Clean your home or office; deep clean appliances and other spaces.</li>
+                                    <li>Now Trending: Eco-friendly products, home cleaning checklists, and cleaning hacks.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 cleaning-details">
+                            <img src="~/Images/Homepage_Assembly.webp" alt="Cleaning service">
+                        </div>
+                    </div>
+                </div>
+                <div id="mounting-items" class="hidden">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex flex-wrap justify-content-start gap-3">
+                                <a href="#" class="btn btn-outline-secondary service-link">Hang Art</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Mirror & Decor</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Install Blinds & Window Treatments</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Mount & Anchor Furniture</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Other Mounting</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">TV Mounting</a>
+                            </div>
+                            <div class="details-card mt-3">
+                                <h4>Mounting</h4>
+                                <ul>
+                                    <li>Securely mount your TV, shelves, art, mirrors, dressers, and more.</li>
+                                    <li>Now Trending: Gallery walls, art TVs, and wraparound bookcases.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mounting-details">
+                            <img src="~/Images/Homepage_Mounting.webp" alt="Mounting service">
+                        </div>
+                    </div>
+                </div>
+                <div id="moving-items" class="hidden">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex flex-wrap justify-content-start gap-3">
+                                <a href="#" class="btn btn-outline-secondary service-link">Local Moves</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Long-Distance Moves</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Packing Services</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Storage Solutions</a>
+                            </div>
+                            <div class="details-card mt-3">
+                                <h4>Moving</h4>
+                                <ul>
+                                    <li>Professional moving services for local and long-distance relocations.</li>
+                                    <li>Now Trending: Sustainable packing materials and smart moving apps.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 moving-details">
+                            <img src="~/Images/Homepage_Moving.webp" alt="Moving service">
+                        </div>
+                    </div>
+                </div>
+                <div id="outdoor-items" class="hidden">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex flex-wrap justify-content-start gap-3">
+                                <a href="#" class="btn btn-outline-secondary service-link">Lawn Care</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Gardening</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Tree Trimming</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Outdoor Furniture Assembly</a>
+                            </div>
+                            <div class="details-card mt-3">
+                                <h4>Outdoor Help</h4>
+                                <ul>
+                                    <li>Services for lawn care, gardening, and outdoor furniture assembly.</li>
+                                    <li>Now Trending: Vertical gardens and eco-friendly landscaping.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 outdoor-help-details">
+                            <img src="~/Images/Homepage_YardWork.webp" alt="Outdoor Help service">
+                        </div>
+                    </div>
+                </div>
+                <div id="repairs-items" class="hidden">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex flex-wrap justify-content-start gap-3">
+                                <a href="#" class="btn btn-outline-secondary service-link">Plumbing</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Electrical Work</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Carpentry</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Drywall Repair</a>
+                            </div>
+                            <div class="details-card mt-3">
+                                <h4>Home Repairs</h4>
+                                <ul>
+                                    <li>Reliable repairs for plumbing, electrical, carpentry, and more.</li>
+                                    <li>Now Trending: DIY home repair hacks and smart home technology.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 home-repairs-details">
+                            <img src="~/Images/Homepage_HomeRepairs.webp" alt="Home Repairs service">
+                        </div>
+                    </div>
+                </div>
+                <div id="painting-items" class="hidden">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex flex-wrap justify-content-start gap-3">
+                                <a href="#" class="btn btn-outline-secondary service-link">Interior Painting</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Exterior Painting</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Wall Murals</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Specialty Finishes</a>
+                            </div>
+                            <div class="details-card mt-3">
+                                <h4>Painting</h4>
+                                <ul>
+                                    <li>Professional interior and exterior painting services.</li>
+                                    <li>Now Trending: Accent walls and eco-friendly paint options.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 painting-details">
+                            <img src="~/Images/Homepage_Painting.webp" alt="Painting service">
+                        </div>
+                    </div>
+                </div>
+                <div id="trending-items" class="hidden">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex flex-wrap justify-content-start gap-3">
+                                <a href="#" class="btn btn-outline-secondary service-link">Smart Home Devices</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Sustainable Living Tips</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">Minimalist Home Trends</a>
+                                <a href="#" class="btn btn-outline-secondary service-link">DIY Home Improvement</a>
+                            </div>
+                            <div class="details-card mt-3">
+                                <h4>Trending</h4>
+                                <ul>
+                                    <li>Discover the latest trends in home improvement and maintenance.</li>
+                                    <li>Now Trending: Smart homes and eco-friendly living.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 trending-details">
+                            <img src="~/Images/HomeRepair_3_950x491.webp" alt="Trending services">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+
+<script>
+    $(document).ready(function () {
+        // Show assembly items by default
+        $('#assembly-items').removeClass('hidden');
+
+        $('.service-item').on('click', function () {
+            const service = $(this).data('service');
+            
+            // Hide all items
+            $('#service-details > div').addClass('hidden');
+
+            // Show the relevant items
+            $(`#${service}-items`).removeClass('hidden');
+
+            // Remove active class from all buttons and add to the clicked one
+            $('.service-link').removeClass('active');
+            $(this).addClass('active');
+        });
+    });
+</script>
